@@ -53,13 +53,12 @@ public class GameController {
    
    
     public void startThreads(){
-       // JOptionPane.showMessageDialog(null, "teste");
+        
         ball1.start();
         ball2.start();
         ball3.start();
         ball4.start();
         ball5.start();
-        ball1.run();
         
     }
     
@@ -114,24 +113,24 @@ public class GameController {
         if(ball1.getId() == ballId){
             System.out.println(ball5.isInterrupted());
                 ball1.interrupt();
-                System.out.println(ball1.isInterrupted());
+               // System.out.println(ball1.isInterrupted());
         }
         if(ball2.getId() == ballId){
                 ball2.interrupt();
-                System.out.println(ball2.isInterrupted());
+              //  System.out.println(ball2.isInterrupted());
         }
         if(ball3.getId() == ballId){
                 ball3.interrupt();
-               System.out.println(ball3.isInterrupted());
+             //  System.out.println(ball3.isInterrupted());
         }
         if(ball4.getId() == ballId){
                 ball4.interrupt();
-              System.out.println(ball4.isInterrupted());
+            //  System.out.println(ball4.isInterrupted());
         }
         if(ball5.getId() == ballId){
                 ball5.interrupt();
               
-                System.out.println(ball5.isInterrupted());
+              //  System.out.println(ball5.isInterrupted());
         }
     }   
 }

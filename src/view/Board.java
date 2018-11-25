@@ -244,7 +244,7 @@ public class Board extends javax.swing.JFrame {
         cells.add(cell98);
         cells.add(cell99);
         cells.add(cell100);
-        gameController.insertBalls(cells);
+        gameController.startThreads();
        
         this.timeCounter();
         
